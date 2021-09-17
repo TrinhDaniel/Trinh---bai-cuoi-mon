@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #141414;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+/*	background: red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+}
+.logo{
+/*	background: pink;*/
+}
+.logo img{
+	width: 200px;
+}
+.logo a:hover{
+	opacity: 0.8;
+}
+.nav ul{
+	font-size: 20px;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+/*	background: aqua;*/
+}
+.nav li{
+	margin-left: 60px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.nav li a:hover{
+	color: #F0D93B;
+}
+.arrow{
+	display: flex;
+	justify-content: flex-end;
+}
+table{
+	margin-left: 50px;
+}
+input{
+	width: 200px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 3px;
+}
+.icon{
+/*	background: #AAAAAA;*/
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.icon a{
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+}
+.icon a:hover{
+	color: #F0D93B;
+}
+	
+#banner{
+	height: 120vh;
+	position: relative;
+}
+#banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+}
+.text{
+	position: absolute;
+	color: white;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.text h3{
+	font-size: 70px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	margin: 50px 0;
+}
+.text p{
+	color: #F0D93B;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 80px;
+}
+.text a{
+	font-size: 20px;
+/*	font-weight: bold;*/
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 15px 20px;
+}
+.text a:hover{
+	background: white;
+	color: black;
+}
+/*banner*/
+.home{
+	padding: 120px 0 70px;
+}
+#history{
+	text-align: center;
+	color: white;
+}
+#history h1{
+	font-size: 45px;
+	letter-spacing: 10px;
+	padding: 100px 0 40px;
+	text-transform: uppercase;
+}
+#history p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	line-height: 35px;
+}
+/*history*/
+
+#popular{
+	padding: 100px 0 60px;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	color: white;
+	font-size: 45px;
+	padding-top: 75px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.title p{
+	color: white;
+	font-size: 25px;
+	margin: 20px 0;
+	letter-spacing: 1px;
+}
+/*title*/
+
+.line{
+	width: 1350px;
+	height: 3px;
+	background: #EEC628;
+	margin: 50px auto;
+	opacity: 0.8;
+}
+.line-2{
+	width: 1350px;
+	height: 3px;
+	background: #EEC628;
+	margin: 70px auto;
+	opacity: 0.8;
+	margin-top: 150px;
+}
+.line-3{
+	width: 1350px;
+	height: 3px;
+	background: #EEC628;
+	margin: 30px auto;
+	opacity: 0.8;
+	margin-bottom: 150px;
+}
+.line-4{
+	width: 575px;
+	height: 2px;
+	background: #EEC628;
+	opacity: 0.8;
+	margin-bottom: 100px;
+}
+/*line*/
+
+.game{
+	text-align: center;
+/*	background: red;*/
+}
+.game h1{
+	color: white;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 12px;
+	letter-spacing: 1px;
+}
+.game p{
+	color: white;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+.feature-img img{
+	width: 350px;
+}
+.game a{
+	font-size: 16px;
+/*	font-weight: bold;*/
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 15px 15px;
+}
+.game a:hover{
+	background: #EEC628;
+	color: black;
+	border: 1px solid black; 
+}
+/*popular*/
+.content{
+	width: 100%;
+	height: 1300px;
+	padding-bottom: 100px;
+}
+.media h1{
+	color: white;
+	font-size: 45px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.navi ul{
+	font-size: 25px;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+/*	background: aqua;*/
+}
+.navi li{
+	margin-left: 80px;
+}
+.navi li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navi li a:hover{
+	color: #F0D93B;
+	text-decoration: underline;
+}
+#hop{
+	width: 100%;
+	padding: 40px 0px;
+	box-sizing: border-box;
+	height: 1200px;
+}
+.sekiro{
+	position: absolute;
+	margin-left: 80px; 
+	z-index: 9999;
+}
+.dark-soul{
+	position: absolute;
+	right: 70px;
+	z-index: 1000;
+}
+.blood{
+	position: absolute;
+    right: 70px;
+	top: 291px;
+	z-index: 999;
+}
+.elden{
+	position: absolute;
+	top: 580px;
+	right: 70px;
+}
+.deracine{
+	position: absolute;
+	top: 580px;
+	left: 80px;
+}
+.armored-core{
+	position: absolute;
+	top: 870px;
+	left: 80px;
+}
+/*video*/
+#dlc-games{
+	padding:  75px 0 220px;
+}
+#dlc-games img{
+	width: 75%;
+	z-index: 2;
+/*	position: relative;*/
+	margin-left: 150px;
+}
+#dlc-games-content h1{
+	font-size: 35px;
+	color: white;
+	padding-bottom: 20px;
+}
+#dlc-games-content .line{
+	margin: 12px 0 36px 30px;
+	width: 60px;
+	opacity: 0.3;
+}
+#dlc-games-content p{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 17px;
+	line-height: 25px;
+	word-spacing: 1px;
+/*	letter-spacing: 1px;*/
+}
+#dlc-games-content{
+/*	display: flex;*/
+	justify-content: flex-end;
+	align-items: center;
+	padding-left: 100px;
+}
+.left a{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 80px;
+	bottom: 130px;
+	border: 2px solid white;
+	padding: 25px 3px 20px;
+}
+.left a:hover{
+	background: grey;
+}
+.right a{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 745px;
+	bottom: 130px;
+	border: 2px solid white;
+	padding: 25px 3px 20px;
+}
+.right a:hover{
+	background: grey;
+}
+.bottom a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 12px 20px;
+	position: absolute;
+	left: 385px;
+	margin-top: 20px;
+}
+.bottom a:hover{
+	background: #EEC628;
+	color: black;
+	border: 1px solid black; 
+}
+#dlc-games-content .bloody img{
+	width: 180px;
+	position: absolute;
+	bottom: 0;
+	right: 470px;
+}
+#dlc-games-content .DS img{
+	width: 180px;
+	position: absolute;
+	bottom: 0;
+	right: 270px;
+}
+#dlc-games-content .remaster img{
+	width: 180px;
+	position: absolute;
+	bottom: 0;
+	right: 70px;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	padding: 80px 0 60px;
+	background: #494949;
+}
+.logo-img img{
+	width: 200px;
+	margin-left: 80px; 
+	padding-bottom: 10px;
+}
+.logo-img a:hover{
+	opacity: 0.6;
+}
+.footer p{
+	font-size: 15px;
+	color: white;
+	margin-left: 80px;
+	padding: 10px 0;
+}
+.footer h4{
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: white;
+	margin-left: 80px;
+	padding: 20px 0;
+}
+.navid ul{
+	font-size: 20px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+/*	justify-content: flex-end;*/
+/*	background: aqua;*/
+	padding:  0 120px 0 ;
+}
+.navid li{
+	margin-left: 60px;
+}
+.navid li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navid li a:hover{
+	color: #F0D93B;
+}
+.naviz ul{
+	right: 400px;
+	position: absolute;
+	font-size: 20px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+/*	background: aqua;*/
+	margin:  0 100px 0;
+}
+.naviz li{
+	margin-left: 50px;
+}
+.naviz li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.naviz li a:hover{
+	color: #F0D93B;
+}
+.support{
+	width: 390px;
+}
+.thong-tin{
+	width:  420px;
+}
+.icon-end{
+/*	background: #AAAAAA;*/
+	display: flex;
+	justify-content: flex-end;
+}
+.icon-end a{
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+.icon-end a:hover{
+	color: #F0D93B;
+}
+.support p{
+	position: absolute;
+	margin-top: 20px;
+}
+.facebook img{
+	position: absolute;
+	width: 40px;
+	right: 275px;
+	bottom: 10px;
+}
+.facebook a{
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	font-size: 17px;
+	bottom: 15px;
+	right: 95px;
+}
+.facebook a:hover{
+	opacity: 0.6;
+	text-decoration: underline;
+}
+.facebook p{
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	top: 40px;
+	right: 205px;
+}
